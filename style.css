@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap');
+
+*,*:before,*:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    font-family: 'STIX Two Text', serif;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+.resume {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 900px;
+    background-color: #fff;
+}
+
+img {
+    width: 32px;
+    margin: .2rem;
+    max-width: 100%;
+}
+
+.intro > * {
+    padding: .3rem 0;
+}
+
+.intro_title {
+    padding-top: 4rem;
+}
+
+.intro .intro_title, .title {
+    color: #f75d5d;
+    font-size: 2rem;
+    font-weight: normal;
+}
+.intro .intro_sub {
+   font-size: 1.2rem;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.info .list, .list1 {
+    list-style-type: square;
+    padding: 0 15px;
+}
+
+.info .list li, .list1 li {
+    padding: .2rem 0;
+}
+
+.info .list:nth-child(2) {
+    margin: 0 4rem;
+}
+
+
+@media screen and (max-width: 600px) {
+    .socials {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .socials .list:nth-child(2) {
+        margin: 0;
+    }
+}
+
+
+.data .blur {
+    color: gray;
+    margin: .4rem 0;
+}
+
+.data .image {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.project {
+    font-weight: normal;
+    margin: .3rem 0;
+}
