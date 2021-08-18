@@ -17,8 +17,8 @@ body {
 }
 
 .resume {
-    margin: 0 auto;
-    padding: 0 15px;
+    margin: 4rem auto;
+    padding: 2rem 15px;
     max-width: 900px;
     background-color: #fff;
 }
@@ -33,9 +33,9 @@ img {
     padding: .3rem 0;
 }
 
-.intro_title {
+/* .intro_title {
     padding-top: 4rem;
-}
+} */
 
 .intro .intro_title, .title {
     color: #f75d5d;
@@ -74,6 +74,10 @@ img {
 
     .socials .list:nth-child(2) {
         margin: 0;
+    }
+
+    .resume {
+        margin: 2rem 1rem;
     }
 }
 
